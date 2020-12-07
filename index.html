@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Destinations</title>
+    <link rel="stylesheet" href="static/css/style.css">
+
+     
+    
+
+    <!-- Modules -->
+    <script src="/node_modules/handlebars/dist/handlebars.min.js"></script>
+
+    <!-- Scripts -->
+    <script src="templates/mainTemplate.js" defer></script>
+  <script src="templates/userTeplates.js" defer></script>
+  <script src="templates/objectTemplates.js" defer></script>
+
+  <script src="/JS-code/RestControllers.js" defer></script>
+ 
+  <script src="/JS-code/MainLogicControllers.js" defer></script>
+ 
+  <script src="/JS-code/handlebarsPaths.js" defer></script>
+  
+   
+</head>
+
+<body>
+
+    <div>
+        <div class="notification loadingBox" >
+            Loading …
+        </div>
+        <div class="notification infoBox">
+            Info
+        </div>
+        <div class="notification errorBox">
+            Error: destination name can't be empty!
+        </div>
+    </div>
+  
+    <div id="container">
+    </div>
+    <footer>@SoftUni Destinations 2020</footer>
+</body>
+
+</html>
